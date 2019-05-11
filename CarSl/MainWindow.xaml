@@ -10,7 +10,10 @@
         <DockPanel LastChildFill="True">
             <Menu DockPanel.Dock="Top">
                 <MenuItem Name="Start" Header="Start"></MenuItem>
-                <MenuItem Name="Weiter" Header="Start1"></MenuItem>
+                <MenuItem Name="Weiter" Header="Start1">
+                    <MenuItem Name="Submenu1" Header="Submenu1">
+                    </MenuItem>
+                </MenuItem>
                 <MenuItem Name="Nochweiter" Header="Start2"></MenuItem>
                 <MenuItem Name="NochEinPunkt" Header="Start3"></MenuItem>
                 <MenuItem Name="NochEinweitererPunkt" Header="Start4"></MenuItem>
