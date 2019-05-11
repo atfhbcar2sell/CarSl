@@ -7,15 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <DockPanel>
+        <DockPanel LastChildFill="True">
             <Menu DockPanel.Dock="Top">
-                <MenuItem Name="Start"></MenuItem>
-                <MenuItem Name="Weiter"></MenuItem>
-                <MenuItem Name="Nochweiter"></MenuItem>
-                <MenuItem Name="NochEinPunkt"></MenuItem>
-                <MenuItem Name="NochEinPunkt"></MenuItem>
-                <MenuItem Name="UndNochEIner"></MenuItem>
+                <MenuItem Name="Start" Header="Start"></MenuItem>
+                <MenuItem Name="Weiter" Header="Start1"></MenuItem>
+                <MenuItem Name="Nochweiter" Header="Start2"></MenuItem>
+                <MenuItem Name="NochEinPunkt" Header="Start3"></MenuItem>
+                <MenuItem Name="NochEinweitererPunkt" Header="Start4"></MenuItem>
+                <MenuItem Name="UndNochEIner" Header="Start5"></MenuItem>
             </Menu>
+            <Grid>
+                
+            </Grid>
         </DockPanel>
     </Grid>
 </Window>
